@@ -1,8 +1,3 @@
-variable "region" {
-  type = string
-  description = "AWS region information"
-}
-
 variable "ami" {
   type = string
   description = "Amazon Image information"

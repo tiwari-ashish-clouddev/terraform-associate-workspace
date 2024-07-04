@@ -1,11 +1,8 @@
-
-
 module "module-ec2" {
   source = "./modules/ec2"
   ami = var.ami
   instanceName = var.instanceName
   instanceType = var.instanceType
-  region = var.region
 }
 
 # Accessing the module outputs
