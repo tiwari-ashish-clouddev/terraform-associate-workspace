@@ -10,4 +10,10 @@ output "instanceName" {
 
 output "az" {
   value = aws_instance.module-ec2.availability_zone
+  description = "Return  Availability Zone of EC2 Instance."
+}
+
+output "subnetId" {
+  value = aws_instance.module-ec2.subnet_id
+  description = "Returns "
 }
