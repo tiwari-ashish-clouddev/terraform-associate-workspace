@@ -1,19 +1,14 @@
-variable "region" {
-  type = string
-  description = "AWS region information"
+variable "mumbai_region" {
+  type        = string
+  description = "AWS Mumbai Region"
 }
 
-variable "bucketName" {
-  type = string
-  description = "S3 Bucket Name."
-}
-
-variable "ami" {
-  type = string
-  description = "Amazon Image information"
+variable "singapore_region" {
+  type        = string
+  description = "AWS Singapore Region"
 }
 
 variable "instanceType" {
-  type = string
+  type        = string
   description = "EC2 Instance Type"
 }
